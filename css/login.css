@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+.header{
+	height: 100px;
+	padding-left: 600px;
+	line-height: 100px;
+}
+h1{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+}
+.bg{
+	height: 560px;
+	background-color: rgb(51,153,254);
+	padding-left: 900px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.login{
+	background-color: white;
+	width: 420px;
+	height: 410px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	font-size: 20px;
+	color: #525252;
+	margin-bottom: 20px;
+}
+hr{
+	margin: 0;
+	margin-bottom: 20px;
+}
+input.xg{
+	display: block;
+	width: 320px;
+	height: 40px;
+}
+input.xg:nth-of-type(2){
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+input.xg:nth-of-type(3){
+	border-radius: 4px;
+	background-color: rgb(51,153,254);
+	font-family: "microsoft yahei light";
+	font-size: 16px;
+	color: #FFFFFF; 
+	margin-bottom: 20px;
+	border: none;
+	outline: medium;
+	margin-top: 20px;
+}
+label{
+	font-family: "microsoft yahei light";
+	font-size: 12px;
+	color: #525252;
+}
+span.one{
+	position: relative;
+	top:-2px;
+}
+span.top{
+	position: relative;
+	top:-5px;
+}
+.bottom{
+	display: inline-block;
+}
+.bottom:nth-of-type(2){
+	margin-left: 10px;
+}
+.bottom:nth-of-type(3){
+	margin-left: 16px;
+}
+.zhuce{
+	color: rgb(52,153,255);
+}
+.wgmm{
+	color: #525252;
+}
